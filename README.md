@@ -15,9 +15,8 @@ Comparative genomic analysis of *Escherichia coli* sequence types **ST10**,
 This repository contains the analysis code, intermediate data tables, and
 supplementary data supporting the manuscript:
 
-> **Beckley B., et al.** *Comparative genomic analysis of Escherichia coli ST10,
-> ST131, and ST167 in Africa and Jordan reveals distinct resistance,
-> virulence, and surface-antigen architectures.* (Manuscript under review.)
+> **Beckley B., et al.** *Klebsiella-like capsule loci and blaNDM-5 dominate Escherichia coli
+> ST167 in Africa: a comparative genomic analysis of ST10, ST131, and ST167.* (Manuscript under review.)
 
 **Dataset:** 444 high-quality *E. coli* genomes
 (ST167 = 189, ST131 = 151, ST10 = 104) selected from 1,816 initial assemblies
@@ -359,9 +358,8 @@ If you use this code or data, please cite:
 ```bibtex
 @article{Beckley2026EcoliAFR,
   author  = {Beckley, Brown},
-  title   = {Comparative genomic analysis of {Escherichia} coli {ST10},
-             {ST131}, and {ST167} in {Africa} and {Jordan} reveals distinct
-             resistance, virulence, and surface-antigen architectures},
+  title   = {Klebsiella-like capsule loci and blaNDM-5 dominate Escherichia coli
+             ST167 in Africa: a comparative genomic analysis of ST10, ST131, and ST167.},
   journal = {[Manuscript under review]},
   year    = {2026}
 }
