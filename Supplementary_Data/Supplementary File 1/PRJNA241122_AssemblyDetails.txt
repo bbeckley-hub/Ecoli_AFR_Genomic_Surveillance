@@ -1,0 +1,8 @@
+# PRJNA241122 Assembly Details
+# Assembly	Level	Chrs	BioSample	Strain	Taxonomy
+GCA_001721225.1	Complete genome	4	SAMN02688212	CFSAN004176	Escherichia coli	
+GCA_001721205.1	Complete genome	4	SAMN02688214	CFSAN004177	Escherichia coli	
+GCA_001678965.1	Complete genome	2	SAMN02688215	GB089	Escherichia coli	
+GCA_001677515.1	Complete genome	2	SAMN02688213	08-00022	Escherichia coli	
+GCA_001677495.1	Complete genome	2	SAMN02808333	09-00049	Escherichia coli	
+GCA_001677475.2	Complete genome	3	SAMN02808332	06-00048	Escherichia coli	

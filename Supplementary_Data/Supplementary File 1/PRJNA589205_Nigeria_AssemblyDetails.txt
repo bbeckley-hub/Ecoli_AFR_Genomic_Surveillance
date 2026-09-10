@@ -1,0 +1,3 @@
+# PRJNA589205 Assembly Details
+# Assembly	Level	WGS	BioSample	Taxonomy
+GCA_009720065.1	Scaffold	WMHN00000000	SAMN13268570	Escherichia coli O25b:H4-ST131	

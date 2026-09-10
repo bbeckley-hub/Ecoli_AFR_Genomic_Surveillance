@@ -1,0 +1,16 @@
+# PRJNA1121524 Assembly Details
+# Assembly	Level	Chrs	BioSample	Strain	Taxonomy
+GCA_053165305.1	Chromosome	2	SAMN41832289	CAAH3Y	Escherichia coli	
+GCA_053165295.1	Complete genome	1	SAMN41832290	BKQ37E	Escherichia coli	
+GCA_053165285.1	Chromosome	7	SAMN41753801	CNS50T	Escherichia coli	
+GCA_053165275.1	Chromosome	4	SAMN41753802	CAAXI3	Escherichia coli	
+GCA_053165265.1	Chromosome	2	SAMN41753803	BKRIFN	Escherichia coli	
+GCA_053165255.1	Chromosome	2	SAMN41753804	CNS5XH	Escherichia coli	
+GCA_053165085.1	Chromosome	3	SAMN41753805	CAA282	Escherichia coli	
+GCA_053165055.1	Chromosome	5	SAMN41753806	BKQ91S	Escherichia coli	
+GCA_053164765.1	Chromosome	3	SAMN41753807	BKQEV3	Escherichia coli	
+GCA_053164755.1	Chromosome	3	SAMN41753808	BKQVX4	Escherichia coli	
+GCA_053164735.1	Chromosome	2	SAMN41753810	CNS75S	Escherichia coli	
+GCA_053164745.1	Complete genome	1	SAMN41753809	BKQWHE	Escherichia coli	
+GCA_053164725.1	Chromosome	3	SAMN41753811	BKRHXR	Escherichia coli	
+GCA_053164715.1	Chromosome	4	SAMN41753812	CAAJR1	Escherichia coli	

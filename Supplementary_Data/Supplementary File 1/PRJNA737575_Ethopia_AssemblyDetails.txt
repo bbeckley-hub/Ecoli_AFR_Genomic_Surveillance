@@ -1,0 +1,6 @@
+# PRJNA737575 Assembly Details
+# Assembly	Level	Chrs	BioSample	Strain	Taxonomy
+GCA_018972265.1	Complete genome	4	SAMN19700014	S103EC	Escherichia coli	
+GCA_018972245.1	Complete genome	4	SAMN19700013	S10EC	Escherichia coli	
+GCA_018972225.1	Complete genome	4	SAMN19700015	S21EC	Escherichia coli	
+GCA_018972205.1	Complete genome	2	SAMN19700016	S22EC	Escherichia coli	

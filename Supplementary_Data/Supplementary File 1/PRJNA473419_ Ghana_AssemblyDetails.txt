@@ -1,0 +1,120 @@
+# PRJNA473419 Assembly Details
+# Assembly	Level	WGS	Chrs	BioSample	Infraspecies Id	Taxonomy
+GCA_012931665.1	Complete genome	undefined	3	SAMN14667517	Ab-C63	Acinetobacter baumannii	
+GCA_012931645.1	Complete genome	undefined	5	SAMN14667515	Ab-B004d-c	Acinetobacter baumannii	
+GCA_012931625.1	Complete genome	undefined	6	SAMN14667516	Ab-D10a-a	Acinetobacter baumannii	
+GCA_012931605.1	Complete genome	undefined	4	SAMN14667518	Ab-C102	Acinetobacter baumannii	
+GCA_026651325.1	Complete genome	undefined	5	SAMN30100912	BC02	Aeromonas caviae	
+GCA_026651305.1	Complete genome	undefined	5	SAMN30100875	BC01	Aeromonas caviae	
+GCA_026651405.1	Complete genome	undefined	6	SAMN30101264	BC11	Aeromonas caviae	
+GCA_026651385.1	Complete genome	undefined	1	SAMN30101213	BC05	Aeromonas dhakensis	
+GCA_026651365.1	Complete genome	undefined	1	SAMN30100966	BC04	Aeromonas dhakensis	
+GCA_026651345.1	Complete genome	undefined	1	SAMN30100940	BC03	Aeromonas dhakensis	
+GCA_026651525.1	Complete genome	undefined	2	SAMN30120839	BC18	Aeromonas dhakensis	
+GCA_026651465.1	Complete genome	undefined	1	SAMN30118293	BC15	Aeromonas dhakensis	
+GCA_028764875.1	Contig	JARADD000000000	undefined	SAMN33317309	CA4	Aeromonas dhakensis	
+GCA_026651505.1	Complete genome	undefined	1	SAMN30118295	BC16	Aeromonas hydrophila	
+GCA_026651445.1	Complete genome	undefined	1	SAMN30118181	BC13	Aeromonas hydrophila	
+GCA_026651545.1	Complete genome	undefined	1	SAMN30120841	BC19	Aeromonas hydrophila	
+GCA_028765305.1	Contig	JARADG000000000	undefined	SAMN33317306	AS12	Aeromonas hydrophila	
+GCA_028765285.1	Contig	JARADF000000000	undefined	SAMN33317307	CL1	Aeromonas hydrophila	
+GCA_026651485.1	Complete genome	undefined	1	SAMN30118332	BC17	Aeromonas jandaei	
+GCA_026651585.1	Complete genome	undefined	2	SAMN30118242	BC14	Aeromonas sp. BC14	
+GCA_054404585.1	Contig	JBTIYE000000000	undefined	SAMN54273066	HOPD_BC	Bacillus cereus	
+GCA_054404575.1	Contig	JBTIYD000000000	undefined	SAMN54273067	HW1_BC	Bacillus cereus	
+GCA_054404535.1	Contig	JBTIYC000000000	undefined	SAMN54273068	ST2b_BC	Bacillus cereus	
+GCA_048398275.1	Complete genome	undefined	2	SAMN47009341	COL9b	Brucella intermedia	
+GCA_052446335.1	Complete genome	JBQSUO000000000	1	SAMN50771552	HW8-CARBA	Citrobacter portucalensis	
+GCA_055521775.1	Complete genome	JBVFOY000000000	1	SAMN54532435	HW7-CARBA	Citrobacter portucalensis	
+GCA_049242725.1	Contig	JBMKNG000000000	undefined	SAMN47554138	060prime_CP	Clostridium perfringens	
+GCA_049242705.1	Contig	JBMKMV000000000	undefined	SAMN47554127	TVL007_CP	Clostridium perfringens	
+GCA_049242685.1	Contig	JBMKNA000000000	undefined	SAMN47554132	TVL044F_CP	Clostridium perfringens	
+GCA_049242645.1	Contig	JBMKNN000000000	undefined	SAMN47554145	TVL081_CP	Clostridium perfringens	
+GCA_049242625.1	Contig	JBMKNO000000000	undefined	SAMN47554146	TVL082_CP	Clostridium perfringens	
+GCA_049242605.1	Contig	JBMKNP000000000	undefined	SAMN47554147	TVL097_CP	Clostridium perfringens	
+GCA_049242665.1	Contig	JBMKMU000000000	undefined	SAMN47554126	TVL004_CP	Clostridium perfringens	
+GCA_049242425.1	Contig	JBMKNJ000000000	undefined	SAMN47554141	Titi64_CP	Clostridium perfringens	
+GCA_049242405.1	Contig	JBMKNM000000000	undefined	SAMN47554144	TVL075_CP	Clostridium perfringens	
+GCA_049242585.1	Contig	JBMKMW000000000	undefined	SAMN47554128	TVL027_CP	Clostridium perfringens	
+GCA_049242565.1	Contig	JBMKMX000000000	undefined	SAMN47554129	TVL040_CP	Clostridium perfringens	
+GCA_049242545.1	Contig	JBMKND000000000	undefined	SAMN47554135	TVL052F_CP	Clostridium perfringens	
+GCA_049242485.1	Contig	JBMKMT000000000	undefined	SAMN47554125	TVL002_CP	Clostridium perfringens	
+GCA_049242465.1	Contig	JBMKNL000000000	undefined	SAMN47554143	68F_CP	Clostridium perfringens	
+GCA_049242445.1	Contig	JBMKNI000000000	undefined	SAMN47554140	TVL061F_CP	Clostridium perfringens	
+GCA_029541585.1	Complete genome	undefined	2	SAMN33819949	ENRHS1	Clostridium perfringens	
+GCA_029580675.1	Complete genome	undefined	2	SAMN33820436	ENRHS3	Clostridium perfringens	
+GCA_029581155.1	Complete genome	undefined	3	SAMN33826337	ENRHS16	Clostridium perfringens	
+GCA_029580895.1	Complete genome	undefined	2	SAMN33824391	ENRHS4	Clostridium perfringens	
+GCA_029580815.1	Complete genome	undefined	2	SAMN33826312	ENRHS14	Clostridium perfringens	
+GCA_029580795.1	Complete genome	undefined	2	SAMN33826306	ENRHS10	Clostridium perfringens	
+GCA_029580775.1	Complete genome	undefined	2	SAMN33824413	ENRHS7	Clostridium perfringens	
+GCA_023337065.1	Contig	JAKSGD000000000	undefined	SAMN26011978	EFN743	Enterobacter cloacae	
+GCA_023920605.1	Complete genome	undefined	4	SAMN26208495	EFN743	Enterobacter cloacae	
+GCA_028765355.1	Contig	JARADI000000000	undefined	SAMN33317304	AS8	Enterobacter kobei	
+GCA_028765025.1	Contig	JARADJ000000000	undefined	SAMN33317301	AS2	Enterobacter kobei	
+GCA_023195715.1	Complete genome	undefined	12	SAMN27117675	C3-17	Enterobacter roggenkampii	
+GCA_028764845.1	Contig	JARADL000000000	undefined	SAMN33317303	AS4	Enterobacter roggenkampii	
+GCA_028765105.1	Contig	JARADK000000000	undefined	SAMN33317300	AS1	Enterobacter soli	
+GCA_003367575.1	Chromosome	undefined	2	SAMN09273490	ST410	Escherichia coli	
+GCA_019355495.1	Complete genome	undefined	5	SAMN15486685	Ec55	Escherichia coli	
+GCA_019355475.1	Complete genome	undefined	5	SAMN15486686	EC45	Escherichia coli	
+GCA_019355455.1	Complete genome	undefined	6	SAMN15486687	Ec42	Escherichia coli	
+GCA_019720795.1	Complete genome	undefined	5	SAMN20802105	Ec1079	Escherichia coli	
+GCA_016432805.1	Complete genome	undefined	5	SAMN15945289	1EC187	Escherichia coli	
+GCA_016432785.1	Complete genome	undefined	7	SAMN15945290	1EC213	Escherichia coli	
+GCA_049380105.1	Contig	JBMKNK000000000	undefined	SAMN47554142	67F_STEC	Escherichia coli	
+GCA_049380025.1	Contig	JBMKNF000000000	undefined	SAMN47554137	TVL060F_STEC	Escherichia coli	
+GCA_049380005.1	Contig	JBMKNC000000000	undefined	SAMN47554134	TVL052F_STEC	Escherichia coli	
+GCA_049379965.1	Contig	JBMKNH000000000	undefined	SAMN47554139	TVL061F_STEC	Escherichia coli	
+GCA_049379945.1	Contig	JBMKMY000000000	undefined	SAMN47554130	TVL041F_STEC	Escherichia coli	
+GCA_049379865.1	Contig	JBMKNB000000000	undefined	SAMN47554133	TVL050F_STEC	Escherichia coli	
+GCA_049379845.1	Contig	JBMKNE000000000	undefined	SAMN47554136	TVL053F_STEC	Escherichia coli	
+GCA_049379905.1	Contig	JBMKMZ000000000	undefined	SAMN47554131	TVL044F_STEC	Escherichia coli	
+GCA_051629995.1	Contig	JBPTWZ000000000	undefined	SAMN49831489	GHA9_AS_00233	Escherichia coli	
+GCA_051629955.1	Contig	JBPTXC000000000	undefined	SAMN49831492	GHA9_AS_00238	Escherichia coli	
+GCA_051631405.1	Contig	JBPTVS000000000	undefined	SAMN49831456	GHA9_AS_00005	Escherichia coli	
+GCA_051631345.1	Contig	JBPTVT000000000	undefined	SAMN49831457	GHA9_AS_00007	Escherichia coli	
+GCA_051631305.1	Contig	JBPTVU000000000	undefined	SAMN49831458	GHA9_AS_00011	Escherichia coli	
+GCA_051631245.1	Contig	JBPTVV000000000	undefined	SAMN49831459	GHA9_AS_00016	Escherichia coli	
+GCA_051631225.1	Contig	JBPTVW000000000	undefined	SAMN49831460	GHA9_AS_00038	Escherichia coli	
+GCA_051631185.1	Contig	JBPTVX000000000	undefined	SAMN49831461	GHA9_AS_00045	Escherichia coli	
+GCA_051631105.1	Contig	JBPTVY000000000	undefined	SAMN49831462	GHA9_AS_00051	Escherichia coli	
+GCA_051631085.1	Contig	JBPTVZ000000000	undefined	SAMN49831463	GHA9_AS_00061	Escherichia coli	
+GCA_051631045.1	Contig	JBPTWA000000000	undefined	SAMN49831464	GHA9_AS_00066	Escherichia coli	
+GCA_051630965.1	Contig	JBPTWB000000000	undefined	SAMN49831465	GHA9_AS_00069	Escherichia coli	
+GCA_051630955.1	Contig	JBPTWC000000000	undefined	SAMN49831466	GHA9_AS_00109	Escherichia coli	
+GCA_051630875.1	Contig	JBPTWD000000000	undefined	SAMN49831467	GHA9_AS_00115	Escherichia coli	
+GCA_051630855.1	Contig	JBPTWF000000000	undefined	SAMN49831469	GHA9_AS_00125	Escherichia coli	
+GCA_051630835.1	Contig	JBPTWE000000000	undefined	SAMN49831468	GHA9_AS_00123	Escherichia coli	
+GCA_051630755.1	Contig	JBPTWG000000000	undefined	SAMN49831470	GHA9_AS_00135	Escherichia coli	
+GCA_051630675.1	Contig	JBPTWI000000000	undefined	SAMN49831472	GHA9_AS_00142	Escherichia coli	
+GCA_051630655.1	Contig	JBPTWJ000000000	undefined	SAMN49831473	GHA9_AS_00145	Escherichia coli	
+GCA_051630595.1	Contig	JBPTWK000000000	undefined	SAMN49831474	GHA9_AS_00149	Escherichia coli	
+GCA_051630715.1	Contig	JBPTWH000000000	undefined	SAMN49831471	GHA9_AS_00137	Escherichia coli	
+GCA_051630555.1	Contig	JBPTWL000000000	undefined	SAMN49831475	GHA9_AS_00151	Escherichia coli	
+GCA_051630535.1	Contig	JBPTWM000000000	undefined	SAMN49831476	GHA9_AS_00162	Escherichia coli	
+GCA_051630475.1	Contig	JBPTWN000000000	undefined	SAMN49831477	GHA9_AS_00178	Escherichia coli	
+GCA_051630435.1	Contig	JBPTWP000000000	undefined	SAMN49831479	GHA9_AS_00187	Escherichia coli	
+GCA_051630395.1	Contig	JBPTWO000000000	undefined	SAMN49831478	GHA9_AS_00181	Escherichia coli	
+GCA_051630375.1	Contig	JBPTWQ000000000	undefined	SAMN49831480	GHA9_AS_00189	Escherichia coli	
+GCA_051630315.1	Contig	JBPTWR000000000	undefined	SAMN49831481	GHA9_AS_00209	Escherichia coli	
+GCA_051630275.1	Contig	JBPTWS000000000	undefined	SAMN49831482	GHA9_AS_00211	Escherichia coli	
+GCA_051630215.1	Contig	JBPTWT000000000	undefined	SAMN49831483	GHA9_AS_00216	Escherichia coli	
+GCA_051630195.1	Contig	JBPTWU000000000	undefined	SAMN49831484	GHA9_AS_00217	Escherichia coli	
+GCA_051630135.1	Contig	JBPTWV000000000	undefined	SAMN49831485	GHA9_AS_00226	Escherichia coli	
+GCA_051630115.1	Contig	JBPTWW000000000	undefined	SAMN49831486	GHA9_AS_00228	Escherichia coli	
+GCA_051630075.1	Contig	JBPTWX000000000	undefined	SAMN49831487	GHA9_AS_00229	Escherichia coli	
+GCA_051630035.1	Contig	JBPTWY000000000	undefined	SAMN49831488	GHA9_AS_00232	Escherichia coli	
+GCA_051629895.1	Contig	JBPTXA000000000	undefined	SAMN49831490	GHA9_AS_00234	Escherichia coli	
+GCA_051629875.1	Contig	JBPTXB000000000	undefined	SAMN49831491	GHA9_AS_00236	Escherichia coli	
+GCA_022605305.1	Complete genome	undefined	3	SAMN26549876	C-21-18	Klebsiella oxytoca	
+GCA_023337055.1	Contig	JAKSGE000000000	undefined	SAMN26011977	EFN299	Klebsiella pneumoniae	
+GCA_023920325.1	Complete genome	undefined	8	SAMN26139404	EFN 299	Klebsiella pneumoniae	
+GCA_023337115.1	Contig	JAKSGF000000000	undefined	SAMN26011976	EFN262	Klebsiella quasipneumoniae	
+GCA_028765315.1	Contig	JARADE000000000	undefined	SAMN33317308	CA1	Klebsiella quasipneumoniae	
+GCA_023920245.1	Complete genome	undefined	7	SAMN26096228	EF262	Klebsiella quasipneumoniae	
+GCA_028765255.1	Contig	JARADM000000000	undefined	SAMN33317302	AS3	Klebsiella variicola	
+GCA_028765205.1	Contig	JARADH000000000	undefined	SAMN33317305	AS10	Klebsiella variicola	
+GCA_026651425.1	Complete genome	undefined	1	SAMN30101387	BC12	Metapseudomonas otitidis	
+GCA_039718995.1	Complete genome	undefined	1	SAMN36900137	Tg_9B	Metapseudomonas otitidis	
+GCA_028863955.1	Contig	JARBFW000000000	undefined	SAMN33317310	CA6	Serratia nevei	

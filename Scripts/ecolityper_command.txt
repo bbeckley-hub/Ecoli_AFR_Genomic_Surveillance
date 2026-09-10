@@ -1,0 +1,1 @@
+ecolityper -i "*.fna" -o results --amr-min-identity 0.95 --amr-min-coverage 0.9 --abricate-minid 90 --abricate-mincov 85 

@@ -1,0 +1,3 @@
+# PRJNA233787 Assembly Details
+# Assembly	Level	WGS	BioSample	Taxonomy
+GCA_000713235.1	Contig	JORO00000000	SAMN02687468	Escherichia coli 7-233-03_S3_C1	

@@ -1,0 +1,21 @@
+# PRJNA856486 Assembly Details
+# Assembly	Level	WGS	Chrs	BioSample	Strain	Taxonomy
+GCA_024700845.1	Scaffold	JANLNI000000000	undefined	SAMN29553898	MLI124	Escherichia coli	
+GCA_024330025.2	Complete genome	undefined	3	SAMN29553880	MLI023K1	Escherichia coli	
+GCA_024331345.2	Complete genome	undefined	2	SAMN29553884	MLI104K2	Escherichia coli	
+GCA_024700835.2	Complete genome	undefined	4	SAMN29553885	MLI105	Escherichia coli	
+GCA_024331475.2	Complete genome	undefined	1	SAMN29553890	MLI107	Escherichia coli	
+GCA_024330145.2	Complete genome	undefined	4	SAMN29553883	MLI104K1	Escherichia coli	
+GCA_024329775.2	Complete genome	undefined	3	SAMN29553881	MLI023K2	Escherichia coli	
+GCA_024331425.2	Complete genome	undefined	2	SAMN29553886	MLI106K1	Escherichia coli	
+GCA_024331525.2	Complete genome	undefined	4	SAMN29553889	MLI106K4	Escherichia coli	
+GCA_024331585.2	Complete genome	undefined	2	SAMN29553894	MLI109	Escherichia coli	
+GCA_024331375.2	Complete genome	undefined	7	SAMN29553892	MLI108K2	Escherichia coli	
+GCA_024331445.2	Complete genome	undefined	4	SAMN29553888	MLI106K3	Escherichia coli	
+GCA_024331495.2	Complete genome	undefined	4	SAMN29553887	MLI106K2	Escherichia coli	
+GCA_024700885.2	Complete genome	undefined	3	SAMN29553897	MLI121	Escherichia coli	
+GCA_024700815.2	Complete genome	undefined	3	SAMN29553896	MLI114	Escherichia coli	
+GCA_024331535.2	Complete genome	undefined	5	SAMN29553893	MLI108K3	Escherichia coli	
+GCA_024700745.2	Complete genome	undefined	2	SAMN29553895	MLI110	Escherichia coli	
+GCA_024700875.2	Complete genome	undefined	7	SAMN29553891	MLI108K1	Escherichia coli	
+GCA_024329785.2	Complete genome	undefined	3	SAMN29553882	MLI102	Escherichia coli	

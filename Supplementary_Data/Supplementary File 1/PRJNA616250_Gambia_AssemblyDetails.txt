@@ -1,0 +1,4 @@
+# PRJNA616250 Assembly Details
+# Assembly	Level	Chrs	BioSample	Strain	Taxonomy
+GCA_013112335.1	Complete genome	1	SAMN14485346	GF3-3	Escherichia coli	
+GCA_013122565.1	Complete genome	1	SAMN14485325	GF4-3	Escherichia coli	

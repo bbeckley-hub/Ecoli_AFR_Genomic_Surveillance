@@ -1,0 +1,3 @@
+# PRJNA406824 Assembly Details
+# Assembly	Level	WGS	BioSample	Taxonomy
+GCA_002358075.1	Contig	NTMD00000000	SAMN07630250	Escherichia coli	

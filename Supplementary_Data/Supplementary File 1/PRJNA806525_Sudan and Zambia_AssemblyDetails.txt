@@ -1,0 +1,44 @@
+# PRJNA806525 Assembly Details
+# Assembly	Level	Chrs	BioSample	Strain	Taxonomy
+GCA_022488385.1	Chromosome	1	SAMN26095834	S-P-C-022.01	Aeromonas hydrophila	
+GCA_022488365.1	Chromosome	1	SAMN26095833	S-P-C-021.01	Aeromonas hydrophila	
+GCA_022530665.1	Chromosome	1	SAMN26088609	23sn	Escherichia coli	
+GCA_022530645.1	Chromosome	1	SAMN26088608	32spn	Escherichia coli	
+GCA_022530625.1	Chromosome	1	SAMN26088607	30spn	Escherichia coli	
+GCA_022531725.1	Chromosome	1	SAMN26095835	S-P-C-015.01	Escherichia coli	
+GCA_022531605.1	Chromosome	1	SAMN26095829	S-P-N-039.01	Escherichia coli	
+GCA_022531485.1	Chromosome	1	SAMN26095828	S-P-C-018.01	Escherichia coli	
+GCA_022531425.1	Chromosome	1	SAMN26095824	S-P-C-023.01	Escherichia coli	
+GCA_022531295.1	Chromosome	1	SAMN26095822	S-P-C-026.01	Escherichia coli	
+GCA_022531175.1	Chromosome	1	SAMN26095821	S-P-C-025.01	Escherichia coli	
+GCA_022531055.1	Chromosome	1	SAMN26095818	S-P-N-029.01	Escherichia coli	
+GCA_022557295.1	Complete genome	1	SAMN25990926	07spn	Escherichia coli	
+GCA_022488345.1	Chromosome	1	SAMN26095817	S-P-N-063.01	Escherichia coli	
+GCA_022488325.1	Chromosome	1	SAMN26095831	S-P-N-065.01	Escherichia coli	
+GCA_022488305.1	Chromosome	1	SAMN26095830	S-P-N-064.01	Escherichia coli	
+GCA_022488285.1	Chromosome	1	SAMN26095825	S-P-C-011.01	Escherichia coli	
+GCA_022488265.1	Chromosome	1	SAMN26095826	S-P-N-045.01	Escherichia coli	
+GCA_022488245.1	Chromosome	1	SAMN26095827	S-P-C-019.01	Escherichia coli	
+GCA_022488225.1	Chromosome	1	SAMN26095820	S-P-N-038.01	Escherichia coli	
+GCA_022488205.1	Complete genome	1	SAMN26095823	S-P-C-029.01	Escherichia coli	
+GCA_022488185.1	Complete genome	1	SAMN26095816	S-P-N-061.01	Escherichia coli	
+GCA_022488165.1	Chromosome	1	SAMN26095819	S-P-N-034.01	Escherichia coli	
+GCA_022530605.1	Chromosome	1	SAMN26088606	14spc	Klebsiella pneumoniae	
+GCA_022530845.1	Chromosome	1	SAMN26095815	S-P-C-016.01	Klebsiella pneumoniae	
+GCA_022530825.1	Chromosome	1	SAMN26095814	S-P-C-037.01	Klebsiella pneumoniae	
+GCA_022530805.1	Chromosome	1	SAMN26095813	S-P-C-032.01	Klebsiella pneumoniae	
+GCA_022530785.1	Chromosome	1	SAMN26095812	S-P-C-027.01	Klebsiella pneumoniae	
+GCA_022530765.1	Chromosome	1	SAMN26096500	S-P-N-031.01	Klebsiella pneumoniae	
+GCA_022530745.1	Chromosome	1	SAMN26096496	S-P-C-028.01	Klebsiella pneumoniae	
+GCA_022530725.1	Chromosome	1	SAMN26096495	S-P-C-024.01	Klebsiella pneumoniae	
+GCA_022530705.1	Chromosome	1	SAMN26096492	S-P-C-007.01	Klebsiella pneumoniae	
+GCA_022530685.1	Chromosome	1	SAMN26096491	S-P-C-013.01	Klebsiella pneumoniae	
+GCA_022532065.1	Chromosome	1	SAMN26100522	S-P-N-054.01	Klebsiella pneumoniae	
+GCA_022557315.1	Chromosome	1	SAMN25995469	12spc	Klebsiella pneumoniae	
+GCA_022488145.1	Chromosome	1	SAMN26096499	S-P-N-043.01	Klebsiella pneumoniae	
+GCA_022488125.1	Chromosome	1	SAMN26096498	S-P-N-042.01	Klebsiella pneumoniae	
+GCA_022488105.1	Chromosome	1	SAMN26096497	S-P-N-036.01	Klebsiella pneumoniae	
+GCA_022488085.1	Chromosome	1	SAMN26096494	S-P-N-047.01	Klebsiella pneumoniae	
+GCA_022488065.1	Chromosome	1	SAMN26096493	S-P-N-044.01	Klebsiella pneumoniae	
+GCA_022437925.1	Chromosome	1	SAMN25990927	28spn	Klebsiella pneumoniae	
+GCA_022437905.1	Chromosome	1	SAMN25995468	56spn	Klebsiella pneumoniae	

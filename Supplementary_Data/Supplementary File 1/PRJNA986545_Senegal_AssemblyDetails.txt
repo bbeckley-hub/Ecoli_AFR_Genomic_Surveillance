@@ -1,0 +1,3 @@
+# PRJNA986545 Assembly Details
+# Assembly	Level	Chrs	BioSample	Taxonomy
+GCA_030520165.1	Complete genome	3	SAMN35842356	Escherichia coli	

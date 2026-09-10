@@ -1,0 +1,12 @@
+for f in *.fna; do
+    base=$(basename "$f" .fna)
+    out_dir="busco_results/${base}_busco"
+    if [ -f "$out_dir/short_summary.specific.enterobacterales_odb12.${base}_busco.txt" ]; then
+        echo "Skipping $f - already completed"
+        continue
+    fi
+    busco -i "$f" -o "${base}_busco" -m geno -l enterobacterales_odb12 \
+          --cpu 4 --out_path busco_results --tar --offline &
+    if (( $(jobs -r | wc -l) >= 2 )); then wait; fi
+done
+wait
