@@ -1,0 +1,23 @@
+# =============================================================================
+# Ecoli_AFR_Genomic_Surveillance 
+# =============================================================================
+#   pip install -r requirements.txt
+# =============================================================================
+
+# --- Core data stack ---
+pandas>=2.2,<3.0
+numpy>=1.26,<2.0
+scipy>=1.13,<2.0
+statsmodels>=0.14,<1.0
+
+# --- Plotting ---
+matplotlib>=3.8,<4.0
+
+# --- Ordination / dimensionality reduction ---
+scikit-learn>=1.4,<2.0
+
+# --- Excel input (Supplementary File 3) ---
+openpyxl>=3.1,<4.0
+
+# --- Project pipeline (installed from GitHub) ---
+# https://github.com/bbeckley-hub/EcoliTyper.git

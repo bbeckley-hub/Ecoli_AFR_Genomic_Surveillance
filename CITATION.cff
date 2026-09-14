@@ -1,0 +1,73 @@
+# =============================================================================
+# Citation File Format (CFF) v1.2.0
+# =============================================================================
+
+cff-version: 1.2.0
+message: "If you use this software or the accompanying data tables, please cite both the manuscript and this repository."
+
+title: "Ecoli_AFR_Genomic_Surveillance: Comparative genomic analysis of Escherichia coli ST10, ST131, and ST167 in Africa and Jordan"
+abstract: >-
+  Analysis code, intermediate data tables, and supplementary data for a
+  comparative genomic study of 444 high-quality Escherichia coli genomes
+  (ST167 n=189; ST131 n=151; ST10 n=104) from 14 African countries and
+  Jordan. The pipeline characterises population structure, antimicrobial
+  resistance genes and chromosomal mutations, virulence determinants,
+  plasmid replicons, capsule (K-) and O-antigen loci, pangenome
+  composition, and core-genome phylogeny.
+type: software
+
+version: 1.0.0
+date-released: "2026-09-10"
+license: MIT
+
+authors:
+  - family-names: Beckley
+    given-names: Brown
+    orcid: https://orcid.org/0009-0005-5414-1305           
+    affiliation: >-
+      Department of Medical Biochemistry, University of Ghana Medical School,
+      Accra, Ghana; Department of Biochemistry and Biotechnology, Kwame
+      Nkrumah University of Science and Technology (KNUST), Kumasi, Ghana
+    email: brownbeckley94@gmail.com
+
+contact:
+  - family-names: Beckley
+    given-names: Brown
+    email: brownbeckley94@gmail.com
+
+repository-code: "https://github.com/bbeckley-hub/Ecoli_AFR_Genomic_Surveillance"
+url: "https://github.com/bbeckley-hub/Ecoli_AFR_Genomic_Surveillance"
+
+keywords:
+  - Escherichia coli
+  - ST10
+  - ST131
+  - ST167
+  - antimicrobial resistance
+  - AMR
+  - blaNDM-5
+  - blaCTX-M-15
+  - genomic surveillance
+  - Africa
+  - Jordan
+  - Klebsiella-like K-loci
+  - capsule loci
+  - pangenome
+  - comparative genomics
+
+preferred-citation:
+  type: article
+  title: >-
+    Comparative genomic analysis of Escherichia coli ST10, ST131, and ST167
+    in Africa and Jordan reveals distinct resistance, virulence, and
+    surface-antigen architectures
+  authors:
+    - family-names: Beckley
+      given-names: Brown
+      affiliation: >-
+        Department of Medical Biochemistry, University of Ghana Medical School,
+        Accra, Ghana
+      email: brownbeckley94@gmail.com
+  journal: "[Manuscript under review]"
+  year: 2026
+ 

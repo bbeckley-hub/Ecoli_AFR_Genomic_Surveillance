@@ -1,0 +1,66 @@
+# =============================================================================
+# Ecoli_AFR_Genomic_Surveillance — conda environment
+# =============================================================================
+# Create with:  conda env create -f environment.yml
+# Activate with: conda activate ecoli_afr
+# Update with:  conda env update -f environment.yml --prune
+# =============================================================================
+
+name: ecoli_afr
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # ---------------------------------------------------------------------------
+  # Core language runtimes
+  # ---------------------------------------------------------------------------
+  - python=3.12
+  - r-base=4.3
+  - pip
+
+  # ---------------------------------------------------------------------------
+  # Genome download & QC
+  # ---------------------------------------------------------------------------
+  - ncbi-datasets-cli>=18.29
+  - fastani>=1.34   # Available via EcoliTyper pipeline
+  - busco>=6.1
+  - biopython>=1.83
+  - seqkit            # convenient FASTA/TSV manipulation
+
+  # ---------------------------------------------------------------------------
+  # Typing / annotation
+  # ---------------------------------------------------------------------------
+  - ecolityper      # A comprehensive pipeline that will install all the typing 
+  - prokka>=1.14.6  # including mlst, serotypeFinder, amrfinderplus, chtyper etc.
+                    # Check repo for details
+  
+
+  # ---------------------------------------------------------------------------
+  # Pangenome & phylogeny
+  # ---------------------------------------------------------------------------
+  - roary>=3.13
+  - iqtree>=3.1.0        
+  - clonalframeml>=1.12 #Recombination
+  - gubbins>=3.4       #Recombination
+
+  # ---------------------------------------------------------------------------
+  # Surface antigens
+  # ---------------------------------------------------------------------------
+  - kaptive>=3.3.2
+
+  # ---------------------------------------------------------------------------
+  # Python analysis stack
+  # ---------------------------------------------------------------------------
+  - pandas>=2.2
+  - numpy>=1.26
+  - scipy>=1.13
+  - statsmodels>=0.14
+  - matplotlib>=3.8
+  - scikit-learn>=1.4     # for PCoA / MDS ordination
+  - openpyxl>=3.1         # read supplementary .xlsx files
+
+
+# Contact @brownbeckley---->brownbeckley@gmail.com for help!!!!!!
