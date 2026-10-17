@@ -1,4 +1,3 @@
-
 # Ecoli_AFR_Genomic_Surveillance
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -6,7 +5,7 @@
 [![R 4.3+](https://img.shields.io/badge/R-4.3%2B-blue.svg)](https://www.r-project.org/)
 
 Comparative genomic analysis of *Escherichia coli* sequence types **ST10**,
-**ST131**, and **ST167** across 14 African countries and Jordan.
+**ST131**, and **ST167** across 13 African countries, Jordan, and three non-African comparator countries (USA, UK, Australia).
 
 ---
 
@@ -16,11 +15,11 @@ This repository contains the analysis code, intermediate data tables, and
 supplementary data supporting the manuscript:
 
 > **Beckley B., et al.** *Klebsiella-like capsule loci and blaNDM-5 dominate Escherichia coli
-> ST167 in Africa: a comparative genomic analysis of ST10, ST131, and ST167.* (Manuscript under review.)
+> ST167 in Africa: a comparative genomic analysis of ST10, ST131, and ST167.* (Under review at *BMC Genomics*.)
 
 **Dataset:** 444 high-quality *E. coli* genomes
 (ST167 = 189, ST131 = 151, ST10 = 104) selected from 1,816 initial assemblies
-across 28 NCBI BioProjects.
+across 28 NCBI BioProjects. The final dataset comprises 393 genomes from 13 African countries, 35 from Jordan, and 16 from non-African comparators (USA, UK, Australia).
 
 **Analysis layers:**
 
@@ -28,6 +27,7 @@ across 28 NCBI BioProjects.
 |---|---|---|
 | Species confirmation | FastANI | EcoliTyper wrapper |
 | Assembly QC | BUSCO 6.1.0 | `busco_command.txt`, `generate_busco_summary.sh` |
+| Metadata extraction (Host/Source/Year) | NCBI BioSample | `ecoli_444_combined.tsv` |
 | MLST / serotype / CH type / phylogroup | EcoliTyper 1.3.0 | `ecolityper_command.txt` |
 | AMR genes | AMRFinderPlus, ResFinder, CARD, MEGARes, ARG-ANNOT (via ABRicate) | `amr_analysis.py`, `amr_burden.py` |
 | Chromosomal mutations | AMRFinderPlus | `mutation_analysis.py`, `mutation_burden.py` |
@@ -263,9 +263,7 @@ python capsule_summary.py          # → stdout (E. coli Group 2/3 only)
 python surface_antigen_summary.py  # → stdout (E. coli + Klebsiella K + O)
 ```
 
-#### 8g. Population structure & chi-square tests
-
-Two related scripts:
+#### 8g. Population structure, metadata & chi-square tests
 
 ```bash
 python compute_geo.py             # → stdout (crosstabs, assembly metrics)
@@ -290,8 +288,9 @@ plus a combined `statistical_summary.tsv`.
 
 | File | Description |
 |---|---|
-| `ecoli_comprehensive.csv` | **Tab-separated** despite `.csv` extension. Columns: `Assembly`, `Country`, `MLST`, `Phylogroup`, `Serotype`, `CH_Type`, `O_Type`, `N50`, `GC_Content`, `Total_Length`, … |
+| `ecoli_444_combined.tsv` | **Core metadata table.** Includes `Assembly`, `Country`, `MLST`, `Phylogroup`, `Serotype`, `CH_Type`, `O_Type`, `N50`, `GC_Content`, `Total_Length`, `source`, `host`, `year`. |
 | `st_by_country.csv` | Long-format summary of ST counts per country |
+| `bioproject_summary.tsv` | Summary of BioProjects and genomes per ST/country (for sampling bias context) |
 
 ### `Intermediate_data_tables/`
 
@@ -303,6 +302,9 @@ plus a combined `statistical_summary.tsv`.
 | `amr_stat_results.csv` | `amr_analysis.py` | Fisher's exact + BH-FDR per gene × ST |
 | `plasmid_associations.csv` | `plasmid_analysis.py` | Fisher's exact + BH-FDR per replicon × ST |
 | `virulence_associations.csv` | `virulence_analysis.py` | Fisher's exact + BH-FDR per gene × ST |
+| `permanova_ST_corrected.tsv` | `vegan::adonis2` | PERMANOVA results (~ST) |
+| `permanova_ST_country_corrected.tsv` | `vegan::adonis2` | PERMANOVA results (~ST + country) |
+| `permanova_country_corrected.tsv` | `vegan::adonis2` | PERMANOVA results (~country) |
 | `st_country_{observed,expected,residuals}.tsv` | `run_final_statistics.py` | Contingency table + chi-square components |
 | `st_chtype_*.tsv` | `run_final_statistics.py` | Same, for CH types |
 | `st_otype_*.tsv` | `run_final_statistics.py` | Same, for O types |
@@ -332,7 +334,9 @@ See manuscript for full descriptions.
 - **Supplementary File 4** — Interactive EcoliTyper HTML report
 - **Supplementary File 5** — Kaptive output (E. coli Group 2/3, Klebsiella K & O)
 - **Supplementary File 6** — EcoliTyper results, IQ-TREE tree, Roary matrices
+- **Supplementary File 7** — BioProject and sampling metadata summary
 - **Supplementary Figure S1** — Pangenome composition bar chart (PNG/PDF)
+- **Supplementary Figure S2** — Temporal distribution of genomes by ST and year (PNG/PDF)
 
 ---
 
@@ -342,12 +346,17 @@ See manuscript for full descriptions.
 |---|---|---|
 | Fig. 1 — Geographic distribution map | MapChart | (manual) |
 | Fig. 2 — PCoA of accessory genome | `pangenome_*` | `pangenome_summary_plot.py` / Python ordination |
+| Fig. 3 — Phylogenomic architecture (A-C) | iTOL | (iTOL annotation files) |
 | Table 1 — ST × country | `st_country_*` | `run_final_statistics.py` |
-| Table 2 — Phylogroup / serotype / CH summary | `metadata/` | `statistical_analysis.py` |
-| Table 3 — AMR genes | `amr_stat_results.csv` | `amr_analysis.py` |
-| Table 4 — Virulence genes | `virulence_associations.csv` | `virulence_analysis.py` |
-| Table 6 — Chromosomal mutations | stdout | `mutation_analysis.py` |
+| Table 2 — Isolation source distribution | `ecoli_444_combined.tsv` | `run_final_statistics.py` |
+| Table 3 — Host distribution | `ecoli_444_combined.tsv` | `run_final_statistics.py` |
+| Table 4 — Phylogroup / serotype / CH summary | `metadata/` | `statistical_analysis.py` |
+| Table 5 — AMR genes | `amr_stat_results.csv` | `amr_analysis.py` |
+| Table 6 — Virulence genes | `virulence_associations.csv` | `virulence_analysis.py` |
+| Table 7 — Plasmid replicons | `plasmid_associations.csv` | `plasmid_analysis.py` |
+| Table 8 — Chromosomal mutations | stdout | `mutation_analysis.py` |
 | Supp. Fig. S1 — Pangenome bar | `pangenome_summary_bar.*` | `pangenome_summary_plot.py` |
+| Supp. Fig. S2 — Temporal distribution | `ecoli_444_combined.tsv` | `plot_temporal.py` |
 
 ---
 
@@ -357,11 +366,12 @@ If you use this code or data, please cite:
 
 ```bibtex
 @article{Beckley2026EcoliAFR,
-  author  = {Beckley, Brown},
+  author  = {Beckley, Brown and Olalekan, Adesola and Afeke, Innocent and Amuzu, Domnic S. Y. and Amarh, Vincent},
   title   = {Klebsiella-like capsule loci and blaNDM-5 dominate Escherichia coli
              ST167 in Africa: a comparative genomic analysis of ST10, ST131, and ST167.},
-  journal = {[Manuscript under review]},
-  year    = {2026}
+  journal = {BMC Genomics},
+  year    = {2026},
+  note    = {Under review}
 }
 ```
 
